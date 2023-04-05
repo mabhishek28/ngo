@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bal Seva Sansthan </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <img style="width: 100px; height: 80px;" src="./images/logo (1).png" alt=""></a>
+
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="./index.html#home">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="./index.html#about">about</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="./index.html#destination">What we do ?</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="./index.html#services">services</a>
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="./index.html#gallery">gallery</a>
+        <!-- <a data-aos="zoom-in-left" data-aos-delay="1150" href="#blogs">Stories</a> -->
+    </nav>
+
+    <a data-aos="zoom-in-left" data-aos-delay="1300" href="./donate.html" class="btn">Refresh</a>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home" style="background-image: url(./images/donate.jpg);">
+
+    <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Welcome</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">help us grow more</h3>
+        <p data-aos="fade-up" data-aos-delay="450">Bal Seva Sansthan appreciate your comcern of donation and we gurantee you your money is put to better use.</p>
+        <a data-aos="fade-up" data-aos-delay="600" href="./assets/QR CODE CD 341.pdf" class="btn">Download Details</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- contact section starts  -->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> Scan To Donate </h1>
+
+    <div class="row">
+
+      <img src="./assets/qrjsk.jpeg"  alt="QR">
+        <form action="mail.php" method="post">
+            <h3>register your Donation</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input name="name" type="text" placeholder="Your Name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input name="amount" type="number" placeholder="Amount">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-star"></span>
+                <input name="transaction" type="" placeholder="Transaction ID">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-box"></span>
+                <input name="message" type="text" placeholder="Message">
+            </div>
+            <input onclick="Afunction ()" type="submit" value="Submit " class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+
+<!-- banner section starts  -->
+
+<div class="banner" style="background-image: url(./images/donation1.jpg);">
+
+    <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>start your journey with us</span>
+        <h3>Let's make this world a better place together</h3>
+        <a href="./index.html#book-form" class="btn">Join Us</a>
+    </div>
+
+</div>
+
+<!-- banner section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <img style="width: 100px; height: 80px;" src="./images/logo (1).png" alt=""></a>
+
+            <p>Bal Seva - Sansthan - Lakshmikant Educational and Charitable Trust</p>
+            <div class="share">
+                <a  target="_blank" href="https://www.facebook.com/balsevadelhi" class="fab fa-facebook-f"></a>
+                <a target="_blank" href="https://www.instagram.com/explore/locations/452631005074352/india/delhi-india/-bal-seva-sansthan/" class="fab fa-instagram"></a>
+                <a target="_blank" href="https://youtu.be/Cmyxjstmq-A" class="fab fa-youtube"></a>
+                <a target="_blank" href="https://www.google.com/maps/place/Bal+Seva+Sansthan/@28.6215223,77.0480398,15z/data=!4m5!3m4!1s0x0:0x1b3536e7bab1e3f1!8m2!3d28.6215223!4d77.0480398" class="fab fa-google"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#destination" class="links"> <i class="fas fa-arrow-right"></i> What we do ? </a>
+            <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+            <!-- <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> stories</a> -->
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> Metro Pillar- 719, Shri Bhola Mandir Gali, Nawada, Uttam Nagar, new delhi </p>
+            <p> <i class="fas fa-phone"></i> +91 8178988589 </p>
+            <p> <i class="fas fa-envelope"></i> info@balseva.org </p>
+            <p> <i class="fas fa-clock"></i> 9:00 - 18:00 </p>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit">created by <span>bal Seva Sansthan</span> | all rights reserved!</div>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>
